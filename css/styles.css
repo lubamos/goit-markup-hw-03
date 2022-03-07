@@ -31,8 +31,10 @@ h1,
 h2,
 h3,
 p {
-  margin: 0;
-  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .logo-header {
@@ -48,6 +50,31 @@ p {
 .logo-header:hover,
 .logo-header:focus {
   color: var(--text-color);
+}
+
+.header-list {
+  display: flex;
+}
+
+.header-item:not(:last-child) {
+  margin-right: 50px;
+}
+.header-nav {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.header-list-cont {
+  display: flex;
+}
+.header-cont:not(:last-child) {
+  margin-right: 50px;
+}
+.header-link-cont {
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-list,
