@@ -236,6 +236,9 @@ h2 {
 }
 /* Portfolio */
 .menu-center {
+  margin-top: 94px;
+  margin-bottom: 36.35px;
+
   list-style: none;
   text-decoration: none;
   display: flex;
@@ -264,6 +267,10 @@ h2 {
 .pointer:focus {
   background-color: var(--hover-color);
   color: #ffffff;
+}
+.portfolio {
+  list-style: none;
+  margin-bottom: 94px;
 }
 
 .portfolio .title {
