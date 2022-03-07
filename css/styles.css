@@ -37,7 +37,15 @@ p {
   padding-bottom: 0;
 }
 
+.main-header {
+  display: flex;
+  align-items: center;
+}
 .logo-header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 93px;
+
   text-decoration: none;
   color: var(--primary-text-color);
   font-family: raleway, sans-serif;
@@ -67,6 +75,7 @@ p {
 
 .header-list-cont {
   display: flex;
+  margin-left: auto;
 }
 .header-cont:not(:last-child) {
   margin-right: 50px;
