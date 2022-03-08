@@ -321,7 +321,19 @@ h2 {
   justify-content: center;
 }
 
+.menu-center .item {
+  margin-right: 8px;
+  padding: 6.41px 22px;
+}
+.menu-center .item:last-child {
+  margin-right: 0;
+}
+
 .pointer {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 4px;
+
   background-color: var(--portfolio-buttons);
   font-weight: 500;
   font-size: 16px;
@@ -330,6 +342,10 @@ h2 {
   cursor: pointer;
 }
 .pointer-current-btn {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 4px;
+
   background-color: var(--hero-button-fover);
   color: var(--body-background-color);
   font-weight: 500;
@@ -348,12 +364,12 @@ h2 {
   list-style: none;
   margin-bottom: 94px;
 }
-.portfolio-big {
+.portfolio {
   display: flex;
   flex-wrap: wrap;
 }
 .portfolio-item {
-  width: 380px;
+  width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
 }
@@ -361,7 +377,7 @@ h2 {
   margin-right: 0;
 }
 .portfolio-item:nth-child(-n + 3) {
-  margin-right: 0;
+  margin-bottom: 0;
 }
 
 .portfolio .title {
