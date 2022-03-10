@@ -58,13 +58,15 @@
     <main>
       <!--hero-->
       <section class="hero">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        <div class="container">
+          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        </div>
         <button type="button" class="hero-btn">Заказать услугу</button>
       </section>
       <!--features-->
 
-      <div class="container">
-        <section class="section-features">
+      <section class="section-features">
+        <div class="container">
           <h2 class="section-title" hidden>Преимущества</h2>
           <ul class="features">
             <li class="features-element">
@@ -96,8 +98,9 @@
               </p>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
+
       <!--portfolio-->
       <section class="section-portfolio">
         <div class="container portfolio-main">
@@ -136,23 +139,31 @@
           <ul class="employees">
             <li class="employees-element">
               <img src="photo/photo1o.jpg" alt="фотография1" width="270" />
-              <h3 class="title">Игорь Демьяненко</h3>
-              <p class="text" lang="en">Product Designer</p>
+              <div class="title-emp">
+                <h3 class="title">Игорь Демьяненко</h3>
+                <p class="text" lang="en">Product Designer</p>
+              </div>
             </li>
             <li class="employees-element">
               <img src="photo/photo2o.jpg" alt="фотография2" width="270" />
-              <h3 class="title">Ольга Репина</h3>
-              <p class="text" lang="en">Frontend Developer</p>
+              <div class="title-emp">
+                <h3 class="title">Ольга Репина</h3>
+                <p class="text" lang="en">Frontend Developer</p>
+              </div>
             </li>
             <li class="employees-element">
               <img src="photo/photo3o.jpg" alt="фотография3" width="270" />
-              <h3 class="title">Николай Тарасов</h3>
-              <p class="text" lang="en">Marketing</p>
+              <div class="title-emp">
+                <h3 class="title">Николай Тарасов</h3>
+                <p class="text" lang="en">Marketing</p>
+              </div>
             </li>
             <li class="employees-element">
               <img src="photo/photo4o.jpg" alt="фотография4" width="270" />
-              <h3 class="title">Михаил Ермаков</h3>
-              <p class="text" lang="en">UI Designer</p>
+              <div class="title-emp">
+                <h3 class="title">Михаил Ермаков</h3>
+                <p class="text" lang="en">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -167,13 +178,13 @@
         >
         <address>
           <ul class="footer-list">
-            <li>г. Киев, пр-т Леси Украинки, 26</li>
-            <li>
+            <li class="item-footer">г. Киев, пр-т Леси Украинки, 26</li>
+            <li class="item-footer">
               <a href="mailto:info@devstudio.com" class="footer-link"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="item-footer">
               <a href="tel:+380961111111" class="footer-link"
                 >+38 096 111 11 11</a
               >
