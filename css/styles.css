@@ -62,13 +62,15 @@ p {
 
 .header-list {
   display: flex;
+  margin-left: auto;
 }
 
 .header-item:not(:last-child) {
   margin-right: 50px;
 }
-.header-nav {
-  display: block;
+.header-link,
+.header-link-current {
+  display: inline-block;
   padding-top: 32px;
   padding-bottom: 32px;
 }
