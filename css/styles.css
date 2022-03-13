@@ -141,6 +141,17 @@ hr.line {
   background-color: var(--background-color);
   outline: 2px solid tomato;
 }
+
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .hero-title {
   display: inline-block;
   margin-bottom: 30px;
@@ -183,6 +194,7 @@ hr.line {
 .features {
   display: flex;
   flex-wrap: wrap;
+  list-style: none;
 }
 .features-element {
   width: 270px;
@@ -192,7 +204,7 @@ hr.line {
   margin-right: 0;
 }
 
-.section-features .features {
+.section-features {
   list-style: none;
   padding-top: 94px;
   padding-bottom: 94px;
@@ -233,13 +245,19 @@ h3 {
 .portfolio-main-element:nth-child(3n) {
   margin-right: 0;
 }
-.section-portfolio {
+.section-portfolio-main {
   list-style: none;
   padding-bottom: 94px;
 }
 
 h2 {
   margin-bottom: 50px;
+}
+
+.img-port-main {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* employees */
@@ -282,7 +300,11 @@ h2 {
   font-size: 16px;
   line-height: 1.9;
 }
-
+.img-empl-main {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 /* footer */
 
 .footer {
@@ -395,14 +417,12 @@ h2 {
 }
 .title-portfolio {
   padding: 20px 24px;
+  border: 1px solid var(--port-border);
 }
 .portfolio .portfolio-item {
-  display: inline-block;
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
-
-  border: 1px solid var(--port-border);
 }
 .portfolio-item:nth-child(3n) {
   margin-right: 0;
@@ -425,4 +445,9 @@ h2 {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
+}
+.img-port-port {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
